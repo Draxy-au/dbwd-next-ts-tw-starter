@@ -6,17 +6,17 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Next.js | TypeScript</title>
+        <title>Next.js | TypeScript | TailwindCSS</title>
         <meta
           name="description"
-          content="My Starter Code for a Next.JS TypeScript project"
+          content="My Starter Code for a Next.JS TypeScript TailwindCSS project"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Base starter for Next.js and Typescript
+        <h1 className="text-3xl font-bold underline">
+          Next.js TypeScript TailwindCSS
         </h1>
       </main>
 
